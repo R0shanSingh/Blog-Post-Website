@@ -6,182 +6,206 @@
     <meta name="description" content="This is a Blog Post Page.">
     <meta name="author" content="Roshan Kumar Singh">
     <title>PAWS & TAILS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Header Section  -->
     <header>
         <h1>PAWS & TAILS</h1>
-        <p>Welcome to Paws & Tails, where my passion for animal and pet care shines through every post. Paws and Tails is your go to blog for all things pets care. Find tips on nutrition, training, health and more to keep your pets happy and healthy. Enjoy heartwarming stories and invaluable insights crafted with love for all pet enthusiasts.</p>
+        <!-- Navigation Section  -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li id="parent-dropdown">Blog Posts
+                    <ul id="dropdown">
+                        <li><a href="#blog-1">Adopting a pet</a></li>
+                        <li><a href="#blog-2">Healthy pets</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <!-- Navigation Section  -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li>Blog Posts
-                <ul>
-                    <li><a href="#blog-1">Adopting a pet</a></li>
-                    <li><a href="#blog-2">Healthy pets</a></li>
-                </ul>
-            </li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
+    <section id="description">
+        <span class="icons-lg"><img class="icons" src="./icons/happy.png" alt=""></span>
+        <p>Welcome to Paws & Tails, where my passion for animal and pet care shines through every post. Paws and Tails is your go to blog for all things pets care. Find tips on nutrition, training, health and more to keep your pets happy and healthy. Enjoy heartwarming stories and invaluable insights crafted with love for all pet enthusiasts.</p>
+    </section>
     <!-- Blog Posts Section  -->
     <main id="blog-posts">
-        <hr>
         <!-- Blog post 1 -->
         <article id="blog-1">
             <h2>Adopting a Pet: What You Need to Know Before Bringing a New Friend Home</h2>
-            <p><strong>Summary:</strong> Understand the responsibilities and joys of adopting a pet. This guide covers the adoption process, how to choose the right pet, preparing your home, and the first steps after bringing your new pet home.</p>
-            <img src="./images/cats.jpg" width="500px" alt="Cats image">
+            <span>
+                <p><strong>Summary:</strong> <br>Understand the responsibilities and joys of adopting a pet. This guide covers the adoption process, how to choose the right pet, preparing your home, and the first steps after bringing your new pet home.</p>
+                <img src="./images/cats.jpg" width="280px" alt="Cats image">
+            </span>
             <!-- Post content -->
-            <ul>
-                <li>
-                    <strong>The Adoption Process: </strong>
-                    <ul>
-                        <li>Research reputable shelters or rescue groups. Visit them to meet potential pets and learn about their backgrounds.</li>
-                        <li><em>Tip: </em>Ask about the pet's health history, behavior, and any special needs.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Choosing the Right Pet: </strong>
-                    
-                    <ul>
-                        <li>Consider your lifestyle, living situation, and the pet's temperament. Think about size, age, and energy level.</li>
-                        <li><em>Personal Story: </em>I chose my dog, Bruno, because his calm demeanor suited my apartment living.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Preparing Your Home: </strong>
-                    
-                    <ul>
-                        <li>Pet-proof your home by removing hazards and setting up a comfortable space with a bed, food, and water dishes.</li>
-                        <li><em>Tip: </em>Create a designated area for your pet to help them adjust to their new environment</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>First Steps After Adoption:</strong>
-                     
-                    <ul>
-                        <li>Schedule a vet visit for a health check and vaccinations. Gradually introduce your pet to their new home and family.</li>
-                        <li><em>Personal Story: </em>When I brought Bruno home, I spent the first few days bonding and helping him explore each room</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Building a Routine:</strong>
-                    <ul>
-                        <li>Establish a daily routine for feeding, exercise, and bathroom breaks. Consistency helps pets feel secure.</li>
-                        <li><em>Tip: </em>Use positive reinforcement to train and reward good behavior.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Socialization and Training: </strong>
-                    <ul>
-                        <li>Gradually introduce your pet to new people, pets, and environments to build confidence and reduce anxiety.</li>
-                        <li><em>Favorite Product: </em>Interactive toys and treats for positive reinforcement training.
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Patience and Love: </strong>
-                    <ul>
-                        <li>Understand that adjusting to a new home takes time. Be patient and shower your pet with love and attention.</li>
-                        <li><em>Personal Story: </em>Bruno was shy at first, but with time and affection, he became an affectionate and playful companion.</li>
-                    </ul>
-                </li>
-            </ul>
-            <p>Adopting a pet is a rewarding experience that comes with responsibilities and joys. By following these steps, you can ensure a smooth transition and a happy, healthy life for your new furry friend.</p>
-            <iframe width="500" height="285" src="https://www.youtube.com/embed/2D-bteu5VlU?si=ZeAYo7xrbVxwmrzC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <span>
+                <ul>
+                    <li>
+                        <strong>The Adoption Process: </strong>
+                        <ul>
+                            <li>Research reputable shelters or rescue groups. Visit them to meet potential pets and learn about their backgrounds.</li>
+                            <li><em>Tip: </em>Ask about the pet's health history, behavior, and any special needs.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Choosing the Right Pet: </strong>
+                        
+                        <ul>
+                            <li>Consider your lifestyle, living situation, and the pet's temperament. Think about size, age, and energy level.</li>
+                            <li><em>Personal Story: </em>I chose my dog, Bruno, because his calm demeanor suited my apartment living.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Preparing Your Home: </strong>
+                        
+                        <ul>
+                            <li>Pet-proof your home by removing hazards and setting up a comfortable space with a bed, food, and water dishes.</li>
+                            <li><em>Tip: </em>Create a designated area for your pet to help them adjust to their new environment</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>First Steps After Adoption:</strong>
+                         
+                        <ul>
+                            <li>Schedule a vet visit for a health check and vaccinations. Gradually introduce your pet to their new home and family.</li>
+                            <li><em>Personal Story: </em>When I brought Bruno home, I spent the first few days bonding and helping him explore each room</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Building a Routine:</strong>
+                        <ul>
+                            <li>Establish a daily routine for feeding, exercise, and bathroom breaks. Consistency helps pets feel secure.</li>
+                            <li><em>Tip: </em>Use positive reinforcement to train and reward good behavior.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <iframe width="400" height="285" src="https://www.youtube.com/embed/2D-bteu5VlU?si=ZeAYo7xrbVxwmrzC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </span>
         </article>
-        <hr>
         <!-- Blog post 2 -->
         <article id="blog-2">
             <h2>5 Ways to Keep Your Pet Happy and Healthy</h2>
-            <p><strong>Summary:</strong> Ensuring your pet's happiness and health involves a combination of proper nutrition, regular exercise, mental stimulation, and regular vet visits. This post provides practical tips, personal stories, and favorite products to help you take the best care of your furry friend.</p>
-            <img src="./images/dog.png" width="500" alt="A Happy dog image">
+            <span>
+                <p><strong>Summary:</strong><br> Ensuring your pet's happiness and health involves a combination of proper nutrition, regular exercise, mental stimulation, and regular vet visits. This post provides practical tips, personal stories, and favorite products to help you take the best care of your furry friend.</p>
+                <img src="./images/dog.png" width="280" alt="A Happy dog image">
+            </span>
             <!-- Post content -->
-            <ol>
-                <li>
-                    <strong>Proper Nutrition:</strong>
-                    <ul>
-                        <li>Feed a balanced diet suitable for their age, size, and breed. Avoid harmful human foods.</li>
-                        <li><em>Personal Story: </em> Switching Bruno to a grain-free diet made him coat shinier and boosted his energy.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Regular Exercise:</strong>
-                    <ul>
-                        <li>Ensure daily exercise. Dogs need walks; cats enjoy interactive play.</li>
-                        <li><em>Favorite Product: </em>A sturdy leash and a variety of toys.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Proper Grooming:</strong>
-                    <ul>
-                        <li>Regularly brush, trim nails, and clean ears to prevent infections.</li>
-                        <li><em>Personal Story: </em>Daily brushing keeps Bruno's coat smooth and gives us bonding time.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Safe Environment:</strong>
-                    <ul>
-                        <li>Create a safe, comfortable living space. Remove hazards and provide a cozy bed.</li>
-                        <li><em>Personal Story: </em>Pet-proofing our new home helped Max settle in quickly.</li>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Love and Attention:</strong>
-                    <ul>
-                        <li>Spend quality time daily. Pets thrive on love and attention.</li>
-                        <li><em>Personal Story: </em>Daily cuddle sessions with Thumper strengthen our bond and keep him happy.</li>
-                    </ul>
-                </li>
-            </ol>
-            <video src="./videos/dogeating.mp4" controls width="500"></video>
+             <span>
+                 <ol>
+                     <li>
+                         <strong>Proper Nutrition:</strong>
+                         <ul>
+                             <li>Feed a balanced diet suitable for their age, size, and breed. Avoid harmful human foods.</li>
+                             <li><em>Personal Story: </em> Switching Bruno to a grain-free diet made him coat shinier and boosted his energy.</li>
+                         </ul>
+                     </li>
+                     <li>
+                         <strong>Regular Exercise:</strong>
+                         <ul>
+                             <li>Ensure daily exercise. Dogs need walks; cats enjoy interactive play.</li>
+                             <li><em>Favorite Product: </em>A sturdy leash and a variety of toys.</li>
+                         </ul>
+                     </li>
+                     <li>
+                         <strong>Proper Grooming:</strong>
+                         <ul>
+                             <li>Regularly brush, trim nails, and clean ears to prevent infections.</li>
+                             <li><em>Personal Story: </em>Daily brushing keeps Bruno's coat smooth and gives us bonding time.</li>
+                         </ul>
+                     </li>
+                     <li>
+                         <strong>Safe Environment:</strong>
+                         <ul>
+                             <li>Create a safe, comfortable living space. Remove hazards and provide a cozy bed.</li>
+                             <li><em>Personal Story: </em>Pet-proofing our new home helped Max settle in quickly.</li>
+                         </ul>
+                     </li>
+                     <li>
+                         <strong>Love and Attention:</strong>
+                         <ul>
+                             <li>Spend quality time daily. Pets thrive on love and attention.</li>
+                             <li><em>Personal Story: </em>Daily cuddle sessions with Thumper strengthen our bond and keep him happy.</li>
+                         </ul>
+                     </li>
+                 </ol>
+                 <video src="./videos/dogeating.mp4" controls width="400px"></video>
+             </span>
         </article>
         <hr>
     </main>
 
     <!-- About Me Section   -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hi! I'm Roshan Kumar Singh, a software engineer by proffesion and avid animal lover with a passion for pets.</p>
-        <p>I have always believed that pets bring immense joy and companionship into our lives with their unique ability to brighten our days, provide comfort during difficult time and teaches us valuable lessons about empathy and responsibility. </p>
-        <p>I started this blog with a goal, to inspire and motivate others to welcome pets into their homes and provide them with the best care possible.</p>
+        <span id="detail-section">
+            <h2>About Me</h2>
+            <p>Hi! I'm Roshan Kumar Singh, a software engineer by proffesion and avid animal lover with a passion for pets.</p>
+            <p>I have always believed that pets bring immense joy and companionship into our lives with their unique ability to brighten our days, provide comfort during difficult time and teaches us valuable lessons about empathy and responsibility. </p>
+            <p>I started this blog with a goal, to inspire and motivate others to welcome pets into their homes and provide them with the best care possible.</p>
+        </span>
+        <span class="image-section">
+            <!-- <span id=""> -->
+                <img class="icons" src="./icons/user.png" alt="profile image">
+            <!-- </span> -->
+        </span>
     </section>
 
     <!-- Contact Section  -->
     <section id="contact">
-        <h2>Contact</h2>
-        <form action="#">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" placeholder="Enter Your Massage" rows="5" required></textarea><br><br>
-            <input type="submit" value="submit">
-        </form>
-        <p>You can also reach out to me through :</p>
-        <p><a href="mailto:roshansingh4385@gmail.com">Email</a></p>
-        <p><a href="https://www.linkedin.com/in/roshan-kumar-singh-3122b8235/">LinkedIn</a></p>
-        <hr>
+        <span class="image-section">
+            <img class="icons" src="./icons/communications (1).png" alt="">
+        </span>
+        <span id="contact-form">
+            <form action="#">
+                <h2>Contact</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" placeholder="Enter Your Massage" rows="5" required></textarea><br><br>
+                <input type="submit" value="submit">
+            </form>
+            <p>You can also reach out to me through :</p>
+            <!-- <p><a href="mailto:roshansingh4385@gmail.com">Email</a></p> -->
+            <!-- <p><a href="https://www.linkedin.com/in/roshan-kumar-singh-3122b8235/">LinkedIn</a></p> -->
+        </span>
     </section>
-
+    
     <!-- Footer Section  -->
     <footer>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#blog-posts">Blog Posts</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div>
+            <span>
+                <h2>PAWS & TAILS</h2>
+                <p><i class="fa-sharp-duotone fa-solid fa-location-dot"></i> 229/3 Hooghly West Bengal 712245</p>
+                <p><i class="fa-duotone fa-solid fa-phone"></i> +91 84205 35002</p>
+                <p><i class="fa-sharp-duotone fa-solid fa-envelope"></i> <a href="mailto:roshansingh4385@gmail.com">Roshansingh4385@gmail.com</a></p>
+            </span>
+            <span>
+                <h3>LINKS</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#blog-posts">Blog Posts</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </span>
+            <span>
+                <h3>Reach Us</h3>
+                <a href=""><i class="fa-brands fa-google fa-xl" style="color: #ed0c18;"></i></a>
+                <a href=""> <i class="fa-brands fa-linkedin fa-xl" style="color: #1466d2;"></i></a>
+                <a href=""><i class="fa-brands fa-github fa-xl"></i></a>
+                
+                
+                
+            </span>
+        </div>
         <hr>
-        <p>&copy; 2024 PAWS & TAILS.</p>
+        <p>&copy; 2024 PAWS & TAILS.all rights reserved.</p>
     </footer>
 </body>
 </html>
