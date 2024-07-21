@@ -11,7 +11,7 @@ body{
 }
 
 /*-----------------------------------*\
-                # Header
+            # Header
 \*-----------------------------------*/
 
 header {
@@ -23,9 +23,9 @@ header {
     z-index:1;
 }
 
-/* for heading */
+/* For Title */
 header h1{
-    -webkit-text-fill-color:transparent ;
+    -webkit-text-fill-color:transparent; 
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     line-height: 150%;
@@ -37,7 +37,7 @@ header h1:hover {
     -webkit-text-stroke-width: 1px;
 }
 
-/* navigation */
+/* For Navigation */
 header nav ul{
     margin: auto;
     padding: 20px 0 0;
@@ -270,11 +270,9 @@ article span video{
 }
 
 
-
 /*-----------------------------------*\
     # Footer section
 \*-----------------------------------*/
-
 
 footer{
     color: white;
