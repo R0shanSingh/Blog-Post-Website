@@ -12,26 +12,29 @@
 <body>
     <!-- Header Section  -->
     <header>
-        <h1>PAWS & TAILS</h1>
+        <h1><i class="fa-solid fa-paw"></i> PAWS & TAILS <i class="fa-solid fa-paw"></i></h1>
         <!-- Navigation Section  -->
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li id="parent-dropdown">Blog Posts
+                <li class="nav-items"><a href="#">Home</a></li>
+                <li class="nav-items" id="parent-dropdown">Blog Posts <i class="fa-solid fa-caret-down"></i>
                     <ul id="dropdown">
-                        <li><a href="#blog-1">Adopting a pet</a></li>
-                        <li><a href="#blog-2">Healthy pets</a></li>
+                        <li class="nav-items"><a href="#blog-1">Adopting a pet</a></li>
+                        <li class="nav-items"><a href="#blog-2">Healthy pets</a></li>
                     </ul>
                 </li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="nav-items"><a href="#about">About Me</a></li>
+                <li class="nav-items"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Description Section  -->
     <section id="description">
-        <span class="icons-lg"><img class="icons" src="./icons/happy.png" alt=""></span>
+        <span class="image-box"><img class="image" src="./images/happy.png" alt=""></span>
         <p>Welcome to Paws & Tails, where my passion for animal and pet care shines through every post. Paws and Tails is your go to blog for all things pets care. Find tips on nutrition, training, health and more to keep your pets happy and healthy. Enjoy heartwarming stories and invaluable insights crafted with love for all pet enthusiasts.</p>
     </section>
+
     <!-- Blog Posts Section  -->
     <main id="blog-posts">
         <!-- Blog post 1 -->
@@ -149,16 +152,14 @@
         </span>
         <span class="image-section">
             <!-- <span id=""> -->
-                <img class="icons" src="./icons/user.png" alt="profile image">
+                <img class="image" src="./images/user.png" alt="profile image">
             <!-- </span> -->
         </span>
     </section>
+    <hr>
 
     <!-- Contact Section  -->
     <section id="contact">
-        <span class="image-section">
-            <img class="icons" src="./icons/communications (1).png" alt="">
-        </span>
         <span id="contact-form">
             <form action="#">
                 <h2>Contact</h2>
@@ -168,44 +169,49 @@
                 <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
                 <label for="message">Message</label><br>
                 <textarea id="message" name="message" placeholder="Enter Your Massage" rows="5" required></textarea><br><br>
-                <input type="submit" value="submit">
+                <button type="submit">Submit</button>
             </form>
             <p>You can also reach out to me through :</p>
-            <!-- <p><a href="mailto:roshansingh4385@gmail.com">Email</a></p> -->
-            <!-- <p><a href="https://www.linkedin.com/in/roshan-kumar-singh-3122b8235/">LinkedIn</a></p> -->
+            <div>
+                <span class="image-section">
+                    <a class="image" href="mailto:roshansingh4385@gmail.com"><img class="image" src="./images/gmail.png" alt=""></a>
+                </span>
+                <span class="image-section">
+                    <a class="image" href="https://www.linkedin.com/in/roshan-kumar-singh-3122b8235/"><img class="image" src="./images/linkedin.png" alt=""></a>
+                </span>
+            </div>
         </span>
     </section>
     
     <!-- Footer Section  -->
     <footer>
-        <div>
-            <span>
+        <div id="footer-main">
+            <span class="footer-content-box">
                 <h2>PAWS & TAILS</h2>
                 <p><i class="fa-sharp-duotone fa-solid fa-location-dot"></i> 229/3 Hooghly West Bengal 712245</p>
                 <p><i class="fa-duotone fa-solid fa-phone"></i> +91 84205 35002</p>
                 <p><i class="fa-sharp-duotone fa-solid fa-envelope"></i> <a href="mailto:roshansingh4385@gmail.com">Roshansingh4385@gmail.com</a></p>
             </span>
-            <span>
+            <span class="footer-content-box">
                 <h3>LINKS</h3>
-                <ul>
+                <ul class="footer-nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#blog-posts">Blog Posts</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </span>
-            <span>
-                <h3>Reach Us</h3>
-                <a href=""><i class="fa-brands fa-google fa-xl" style="color: #ed0c18;"></i></a>
-                <a href=""> <i class="fa-brands fa-linkedin fa-xl" style="color: #1466d2;"></i></a>
-                <a href=""><i class="fa-brands fa-github fa-xl"></i></a>
-                
-                
-                
+            <span class="footer-content-box">
+                <ul class="social-links">
+                    <li><a href=""><i class="fa-brands fa-google fa-xl" style="color: #ed0c18;"></i></a></li>
+                    <li><a href=""> <i class="fa-brands fa-linkedin fa-xl" style="color: #1466d2;"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-github fa-xl"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram fa-xl" style="color: #f23665;"></i></a></li>
+                </ul>
             </span>
         </div>
         <hr>
-        <p>&copy; 2024 PAWS & TAILS.all rights reserved.</p>
+        <p>&copy; 2024 PAWS & TAILS.</p>
     </footer>
 </body>
 </html>
